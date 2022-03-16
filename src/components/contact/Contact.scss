@@ -1,0 +1,47 @@
+.contact{
+    background-image: url("hand.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 90vh;
+    .left{
+        width: 50%;
+        height: 100%;
+        color: white;
+        float: left;
+        h1{
+            padding-top: 10%;
+            font-size: 40px;
+            padding-left:  20%;
+        }
+        h3{
+            margin-top: 5%;
+            padding-left: 20%;
+        }
+    }
+    .right{
+        height: 100%;
+        width: 50%;
+        padding-top: 6%;
+        float: right;
+        
+         #input{
+             background: transparent;
+             border: 2px solid white;
+             color: white;
+             outline: none;
+             padding: 10px 10px;
+             width: 60%;
+         }
+         #btn{
+             cursor: pointer;
+             outline: none;
+            padding: 7px 30px;
+            font-size: 20px;
+            background-color: rgb(13,110,253);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-left: 5%;
+            
+         }
+    }
+}
